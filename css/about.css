@@ -1,0 +1,355 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("bootstrap.min.css");
+@import url("main.css"); 
+.p-80{
+    padding: 70px 0px;
+}
+.section-one-about{
+    background-image: url(../img/levelx-about-us-bg-min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ height: 55vh;   
+}
+.text-one-about{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+}
+.text-one-about h1{
+font-size: 48px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.text-one-about p{
+font-size: 17px;
+color: #ffffffdc;
+padding: 0px 120px;
+    }
+    /* ----- */
+    .section-two-about{
+        background-color: #1a1b1f;
+    }
+    .item-one-about .img-about-one{
+        margin-bottom: 20px;
+    }
+    .text-about-one{
+        color: #fff;
+    }
+    .text-about-one p{
+        color:#c7c7c7;
+        font-size: 18px;
+    }
+    .text-about-one h2{
+font-size: 22px;
+margin-bottom: 20px;
+font-weight: 700;
+    }
+    /* end of section two */
+    .section-three-about{
+        background-color: #1a1b1f;
+        position: relative;
+    }
+    .item-two-about{
+        background-image: url(../img/levelx-about-info.png);
+        width: 100%;
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .text-inter-image{
+        color: #fff;
+        width: 50%;
+padding:50px;
+        background-color: #1a1b1f;
+        position: absolute;
+top: 60%;
+        left: 10%;
+    }
+    .text-inter-image h2{
+font-size: 26px;
+font-weight: 600;
+margin-bottom: 20px;
+    }
+    .inter-one{
+        color: #c7c7c7;
+        font-size: 17px;
+    }
+    .inter-two{
+        color: #c7c7c7;
+        line-height: 1.9;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .section-three-about:after{
+        content: "";
+        position:absolute;
+        width: 65%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.219);
+        bottom: 0%;
+        left: 18%;
+    }
+/* ------------------time */
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-bottom:100px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title p {
+	color: #ffffff;
+	font-size: 16px;
+}
+.section-title h4 {
+	text-transform: capitalize;
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+    color: #fff;
+}
+ul.timeline-list {
+	position: relative;
+	margin: 0;
+	padding: 0
+}
+ul.timeline-list:before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: #2b313a;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+ul.timeline-list li {
+	position: relative;
+	clear: both;
+	display: table;
+}
+.timeline_content {
+	border: 2px solid transparent;
+	background-color:transparent
+}
+ul.timeline-list li .timeline_content {
+	width: 45%;
+	color: #ffffff;
+	padding: 30px;
+	float: left;
+	text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+	float: right;
+	text-align: left;
+}
+.timeline_content h4 {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 10px 0;
+    font-weight: 700;
+}
+ul.timeline-list li:before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	background-color: #002fff;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.timeline_content span {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: poppins;
+	color: #ff3636;
+}
+/*  */
+
+    /*  */
+    .section-four-about{
+background-color: #1a1b1f;
+background-image: url(../img/transparent-bg.png);
+background-size: cover;
+height: 90vh;
+    }
+    /*  */
+    .section-five{
+        background-color: #1a1b1f;
+    }
+    .itemm-one{
+        color: #fff;
+        width: 70%;
+    }
+    .itemm-two{
+        color: #c7c7c7;
+        font-size: 20px;
+    }
+    .itemm-one h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .item-image img{
+        width: 100%;
+    }
+    .item-text-one{
+        margin-top: 20px;
+        color: #ffff;
+    }
+    .icons-row i{
+padding: 10px 10px;
+color: #fff;
+border: 1px solid #ffffff65;
+background-color: #000;
+border-radius: 50%;
+    }
+    .item-image{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .item-image img{
+        filter: grayscale(1);
+        transition: all .5s;
+    }
+    .item-image:hover img{
+        filter: grayscale(0);
+        transform: scale(1.05);
+
+    }
+    /* end of section five */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px)
+{
+    .text-one-about{
+        width: 100%;
+    }
+    .text-inter-image{
+        width: 70%;
+    top: 70%;
+        left: 5%;
+        height: 300px;
+        padding: 30px 30px;
+    }
+    .section-four-about{
+        height: 1000px;
+        padding: 90px 0px;
+    }
+
+}
+@media screen and (max-width:992px)
+{
+    .item-row-one{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+    @media screen and (max-width:768px){
+        .section-one-about{
+            height: 700px;
+        }
+.text-one-about{
+    width: 100%;
+}
+.text-inter-image{
+    width: 100%;
+top: 60%;
+    left: 0%;
+    height: 300px;
+    padding: 40px 10px;
+}
+.timeline_content{
+    width: 100% !important;
+    
+}
+ul.timeline-list:before {
+	background-color: transparent;
+
+}
+ul.timeline-list li:before {
+	background-color: transparent;
+}
+
+.itemm-one{
+    width: 80%;
+}
+.itemm-two{
+    width: 100%;
+    font-size: 16px;
+}
+.item-row-one{
+    margin-bottom: 40px;
+}
+.section-four-about{
+    height: 1000px;
+    padding: 90px 0px;
+}
+.section-three-about{
+    background-size:cover ;
+    background-position: center;
+}
+   .item-two-about{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    }
+    @media screen and (max-width:600px){
+        .text-inter-image{
+            width: 100%;
+        top: 40%;
+            left: 0%;
+            height: 400px;
+            padding: 40px 10px;
+        }
+    }

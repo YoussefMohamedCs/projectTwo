@@ -1,0 +1,187 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("bootstrap.min.css");
+@import url("../css/main.css");
+    /*  */
+    .card{
+        background-color: transparent;
+        }
+
+
+    .card-title{
+        color: #000;
+        margin-bottom: 10px;
+    }
+    .card .card-text{
+color: #000;
+padding: 0px;
+margin: 0px;
+    }
+    .para{
+        background-color: transparent;
+    }
+.p-80{
+    padding: 80px 0px;
+}
+.section-one-page-review{
+    background-image: url(../img/breadcrumbs-2.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    z-index: 1;
+}
+
+.section-one-page-review::after{
+position: absolute;
+content: "";
+inset: 0;
+z-index: -1;
+background-color: #0000008c;
+}
+h1{
+    color: #FFF;
+    font-weight: 800;
+    font-size: 35px;
+}
+/*  */
+.section-two-page-review{
+    background-color: #fafafa;
+}
+.progress{
+    margin-bottom: 20px;
+    background-color: #0000002f;
+}
+.text-one-page-two h2{
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 1000;
+    color: #5865f2;
+}
+.text-pr h2{
+    font-size: 16px;
+margin: 0px;
+padding: 0px;
+}
+.text-pr{
+margin: 0px;
+padding: 0px;
+width: 100%;
+}
+.text-pr p{
+    margin: 0px;
+    padding: 0px;
+    }
+    .text-up{
+        margin: 0px;
+        padding: 0px;
+    }
+    .card-img{
+width: 150px;
+height: 150px;
+    }
+    .item-two .card{
+        background-color: #fff;
+        padding: 30px 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+        border: 1px solid #0000000e;
+    }
+    .card-body-page-two{
+        padding-left: 40px;
+    }
+    .card-body-page-two a i{
+        padding: 0px 5px;
+    }
+    .card-body-page-two a{
+font-weight: 700;
+    }
+    .card-body-page-two a:hover{
+background-color: #5865f2ea;
+border: 1px solid transparent;
+            }
+            .head-of-card-two h2{
+                font-size: 35px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .para{
+                color: #686868;
+                line-height: 1.9;
+                margin-bottom: 30px;
+                letter-spacing: 1px;
+            }
+            .head-of-card-three h2{
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .cardd{
+                border: 1px solid #0000001e;
+                padding: 20px 20px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+            }
+            .cardd .btn{
+                background-color: #5865f2;
+                color: #fff;
+                margin-top: 10px;
+                padding: 7px 20px;
+                font-size: 16px;
+                font-weight: 600;
+          
+            }
+            .text-head-col-two h2{
+                margin-bottom: 30px;
+            }
+            .text-head-col-two{
+                position: relative;
+            }
+            .text-head-col-two:after{
+                position: absolute;
+                content: "";
+                bottom: -30%;
+                left: 0;
+                background-color: #5865f2;
+                width: 60px;
+                height: 3px;
+            }
+            .item-one-col-two .card-body{
+padding: 20px 10px;
+            }
+        .item-one-col-two h2{
+            font-size: 20px;
+            padding: 0px;
+            margin: 0px;
+            font-weight: 600;
+        }
+        .item-one-col-two p{
+            padding: 0px;
+      margin-top: 10px;
+      margin-right: 10px;
+color: #000000a6;
+font-weight: 700;
+margin-bottom: 0px;
+        }
+    /* -------- */
+   .card-img-top-b{
+    position: relative;
+    overflow: hidden;
+   }
+    .card-img-top-b:after{
+        content: "";
+        position: absolute;
+        background-color: #ffffff48;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all .5s;
+    }
+    .card-img-top-b:hover:after{
+        opacity: 1;
+    }
+    .card-img-top-b img{
+transition: all .5s;
+    }
+    .card-img-top-b:hover img{
+        transform: scale(1.1) rotate(3deg);
+    }

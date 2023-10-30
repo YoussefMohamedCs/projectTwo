@@ -1,0 +1,114 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("bootstrap.min.css");
+@import url("main.css");
+.p-80{
+    padding: 70px 0px;
+}
+
+section{
+    background-image: url(../img/levelx-header.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.card{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+}
+.up{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right , #0000ee , #545454);
+    width: 100%;
+    height: 5px;
+animation-name: an-up;
+animation-duration: 2s;
+animation-iteration-count:  infinite;
+}
+.right{
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+width: 5px;
+background: linear-gradient(to right , #0000ee , #545454);
+animation-name: an-right;
+animation-duration: 2s;
+animation-iteration-count:  infinite;
+animation-delay: 1s;
+
+}
+.bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right , #0000ee , #545454);
+    width: 100%;
+    height: 5px;
+animation-name: an-bottom;
+animation-duration: 2s;
+animation-iteration-count:  infinite;
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(to right , #0000ee , #545454);
+    animation-name: an-left;
+    animation-duration: 2s;
+    animation-iteration-count:  infinite;
+    animation-delay: 1s;
+    
+    }
+@media  screen and (max-width:600px) {
+    section{
+        height: 120vh;
+    }
+    
+}
+
+
+@keyframes an-left{
+    0%{
+        transform:translateY(100%);
+    }
+    100%{
+        transform:translateY(-100%);
+    }
+}
+@keyframes an-bottom{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+@keyframes an-right{
+    0%{
+        transform:translateY(-100%);
+    }
+    100%{
+        transform:translateY(100%);
+    }
+}
+
+@keyframes an-up{
+    0%{
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(100%);
+    }
+}
